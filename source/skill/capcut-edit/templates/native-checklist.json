@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "capcut-native-proof/v1",
+  "artifact": null,
+  "appVersion": null,
+  "style": null,
+  "checks": [
+    {
+      "id": "script-coverage",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "latest-usable-main-speaker",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "no-prompter-bad-take",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "exact-audible-words",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "joins-and-sync",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "phrase-timing",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "active-caption-word-limit",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "one-reviewed-logical-sentence-per-cue-before-display-formatting",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "whole-transcript-semantic-review-and-no-split-inside-reviewed-protected-span",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "over-limit-indivisible-unit-conflicts-resolved-without-silent-shortening",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "caption-punctuation-and-verified-name-case",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "exact-next-start-holds-reviewed-first-last-bounds",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "readable-one-visual-line",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "style-appearance",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "independent-editable-clips-captions",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "save-close-reopen-persistence",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "reviewed-grammar-short-cues-and-authorized-ordinal-period-first-character-raw-ID-trace",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "nga-style-confirmed-person-recipient-real-estate-or-nonapply",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "authorized-exact-emoji-all-whole-matches-reversible-raw-IDs-old-locks-cue-clock-preserved",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "native-emoji-glyph-ZWJ-atomic-pairs-no-tofu-clipping-UTF16-style-ranges-save-reopen",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "exhaustive-current-cut-adjacent-cue-inventory-crossing-touching-and-firstword-in-retained-handles",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "first-raw-word-alone-previous-piece-rest-next-piece-priority-both-source-legs-actual-phonetic-onset",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "cut-onset-audio-offset-channel-speed-piecewise-map-uncertain-PENDING-no-cut-peak-snap-or-ASR-ACK-pass",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "first-raw-word-START-END-separate-before-after-evidence-status-ENDonly-refinement-never-ONSET-pass",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "actual-audible-utterance-sequence-multiplicity-retained-unmapped-handles-islands-versus-accepted-take",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT"
+    },
+    {
+      "id": "repeat-partial-restart-disposition-preserve-intended-emphasis-no-ASR-ID-only-dedup-or-quiet-disguise",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT"
+    },
+    {
+      "id": "dense-cuts-protected-spoken-phrase-all-source-legs-phonetic-continuity-normal-speed-current-QA",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT"
+    },
+    {
+      "id": "selected-Nga-portable-baseline-current-font-hash-width-one-line-native-proof-no-inherited-PASS",
+      "status": "PENDING",
+      "evidence": null
+    },
+    {
+      "id": "saved-active-object-ID-source-clock-text-style-gain-speed-track-readback-no-blind-list-index-restore",
+      "status": "PENDING",
+      "evidence": null
+    }
+  ],
+  "checkpoint": "PENDING",
+  "blockedDependencies": [],
+  "bRollChecks": [
+    {
+      "id": "passed-base-checkpoint-truthful-user-reported-or-agent-verified-evidence",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "meaning-relevance-and-added-information-source-rights",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "known-source-origin-and-applicable-CAMERA-voice-evidence-or-existing-Gate0-dependency-AI-voice-exempt",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "CAMERA-NO_VOICE-each-source-excerpt-excludes-first5-last4-actual-source-duration-not-native-rounding",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "exact-caption-onset-nearby-cut-preference-main-video-unchanged",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "SPARSE-or-FULL_TIMELINE-interior-transitions"
+    },
+    {
+      "id": "exact-last-caption-end-internal-boundaries-unconstrained",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "SPARSE-or-FULL_TIMELINE-except-last-picture-edge"
+    },
+    {
+      "id": "three-second-minimum-meaning-led-duration-no-forced-ten-second-fill",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "silent-separate-editable-Broll-crop-rotation-and-caption-fit",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "main-video-speech-captions-duration-and-save-reopen-preserved",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-added"
+    },
+    {
+      "id": "FULL_TIMELINE-explicit-VOICEOVER_READING-role-proof-contiguous-zero-to-duration-picture-only-edge-exceptions",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "coverageMode-FULL_TIMELINE"
+    },
+    {
+      "id": "after-recut-all-Broll-reanchored-on-current-caption-clock-min3-source5head4tail-style-and-meaning-preserved",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "base-recut-and-Broll-present"
+    },
+    {
+      "id": "whole-current-Broll-source-usage-including-unchanged-native-clips-and-SHA-aliases",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-planned-or-present"
+    },
+    {
+      "id": "positive-source-overlap-prior-END-to-new-START-cooldown-at-least180s",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-present-and-REVIEWED_CONDITIONAL_REUSE-explicitly-authorized"
+    },
+    {
+      "id": "reuse-only-after-exhaustive-eligible-unused-source-window-review-no-remaining3s",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-present-and-REVIEWED_CONDITIONAL_REUSE-explicitly-authorized"
+    },
+    {
+      "id": "fresh-source-then-unused-window-preference-UNKNOWN-and-baseline-violations-held",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-present-and-REVIEWED_CONDITIONAL_REUSE-explicitly-authorized"
+    },
+    {
+      "id": "after-recut-usage-cooldown-exhaustion-ledger-rebuilt-from-current-native-save-reopen",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-planned-or-present"
+    },
+    {
+      "id": "default-one-original-source-once-even-disjoint-window-alias-crop-track-and-current-native-audit",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "B-roll-present"
+    }
+  ],
+  "outputMode": null,
+  "nativeChecksApplyWhen": "EDIT_TIMELINE",
+  "srtOnlyNativeChecks": "NOT_APPLICABLE-with-reason-never-PASS",
+  "takeSelectionChecksApplyWhen": "content-edit-required-units-by-script-role",
+  "pacingChecks": [
+    {
+      "id": "reviewed-quiet-source-no-speech-prompter-or-amplitude-only-inference",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT-pacing-added",
+      "clockBasis": "ACTUAL_TIMELINE_FPS"
+    },
+    {
+      "id": "exact15frames-previous-source-tail-cut-next-head-firstspeech-no-last-tail-padding",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "pacingScope-INTER_SENTENCE_ONLY-or-SENTENCE_AND_INTRA-only",
+      "clockBasis": "ACTUAL_TIMELINE_FPS"
+    },
+    {
+      "id": "long-intra-breath-actual-native<=5frames-shorter-unchanged-FPS-speed-preserved",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "pacingScope-SENTENCE_AND_INTRA-only",
+      "clockBasis": "ACTUAL_TIMELINE_FPS"
+    },
+    {
+      "id": "every-raw-word-source-piece-volume-and-protected-caption-group-preserved",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT-pacing-added",
+      "clockBasis": "ACTUAL_TIMELINE_FPS"
+    },
+    {
+      "id": "piecewise-new-clock-caption-holds-source-boundaries-audio-joins-and-sync",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT-pacing-added",
+      "clockBasis": "ACTUAL_TIMELINE_FPS"
+    },
+    {
+      "id": "fresh-base-checkpoint-and-all-Broll-reanchor-native-save-reopen",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT-pacing-added",
+      "clockBasis": "ACTUAL_TIMELINE_FPS"
+    },
+    {
+      "id": "ALL_PAUSES-safe-intra-and-inter-windows-phonetic-handles-unknown-held-no-zero-gap-forcing",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT-and-pacingScope-ALL_PAUSES"
+    },
+    {
+      "id": "post-CND-final-edited-audio-first-word-onsets-frozen-before-END-only-holds-derived-clock-current",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "base-content-or-pause-clock-changed"
+    },
+    {
+      "id": "ALL_PAUSES-head-internal-tail-realquiet-strictly-over200ms-detect-not-retain-atbelow-unchanged-unknownHELD-exactdiagnosis",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "CONTENT_EDIT-and-pacingScope-ALL_PAUSES"
+    },
+    {
+      "id": "fresh-final-editedaudio-onsets-after-head-tail-internal-cuts-ENDonly-and-newBroll-fullbounds",
+      "status": "PENDING",
+      "evidence": null,
+      "appliesWhen": "base-recut"
+    }
+  ],
+  "pacingFramePolicy": {
+    "sentenceTailFrames": 15,
+    "intraSentenceBreathCapFrames": 5,
+    "shorterOrEqualBreathsUnchanged": true,
+    "framePhaseTickDifferencesPermitted": true,
+    "actualTimelineFPSRequired": true,
+    "sourceFPSNotTarget": true,
+    "rawAudioSourceBoundaryReview": "PENDING",
+    "lastSentenceForcedTail": false,
+    "intraGapMeasure": "full-reviewed-speech-end-to-onset-after-source-translation",
+    "wholeQuietFramesAndBothEdgeMarginsReported": true,
+    "knownShortfallRequiresExplicitDecisionAndSentenceReport": true,
+    "unknownQuietNotShortfall": true,
+    "realQuietMicroticksPreserved": true,
+    "partialHeldJoinsNotComplete": true,
+    "appliesWhen": "explicit-selected-legacy-15-5-scope-only"
+  },
+  "scriptRole": "EXACT_CONTENT-or-REFERENCE_ONLY-with-task-evidence",
+  "pacingDefault": "ALL_PAUSES-for-CONTENT_EDIT-only",
+  "legacyPacingOptions": {
+    "INTER_SENTENCE_ONLY": {
+      "sentenceTailFrames": 15,
+      "preserveIntraSentencePauses": true
+    },
+    "SENTENCE_AND_INTRA": {
+      "sentenceTailFrames": 15,
+      "intraSentenceBreathCapFrames": 5,
+      "rawGapCeiling": "ceil(5*1000000/timelineFPS)-phase-aware",
+      "shorterOrEqualRawGapUnchanged": true
+    },
+    "overrideRequires": "explicit-scoped-user-request-evidence",
+    "unknownQuietNotShortfall": true,
+    "shortfallPolicy": "explicit-user-reviewed-real-quiet-and-per-sentence-report-only",
+    "noPaddingFreeze": true
+  },
+  "pauseCriterion": {
+    "minimumQuietDurationTicks": 200000,
+    "comparison": "STRICTLY_GREATER",
+    "auditScopes": [
+      "HEAD",
+      "INTERNAL",
+      "TAIL"
+    ]
+  },
+  "cutAdjacentOnsetAudit": {
+    "status": "PENDING",
+    "revisionIdentity": null,
+    "audioIdentity": null,
+    "inventoryEvidenceRef": null,
+    "currentCueCount": null,
+    "currentMainCutCount": null,
+    "riskCueCount": null,
+    "auditedRiskCueCount": null,
+    "unresolvedCueIds": null,
+    "fixtureProofScope": "recognition-coverage-and-hold-decisions-only-not-hearing",
+    "firstWordEndpointProvenanceEvidenceRef": null
+  },
+  "utteranceContinuityAudit": {
+    "currentAudioRevisionHash": null,
+    "sourceAndJoinedClockEvidenceRef": null,
+    "acceptedTakeOccurrenceEvidenceRef": null,
+    "retainedHandleIslandInventoryEvidenceRef": null,
+    "actualSequenceMultiplicityEvidenceRef": null,
+    "repeatRestartDispositionEvidenceRef": null,
+    "densePhraseCutContinuityEvidenceRef": null,
+    "spokenContentRepairAuthorityOrNonapplyEvidenceRef": null,
+    "selectedWordModelAndRawHistoryEvidenceRef": null,
+    "downstreamCaptionBrollRevalidationEvidenceRef": null,
+    "nativeNormalSpeedPlaybackPersistenceEvidenceRef": null,
+    "unresolvedOccurrenceIds": null,
+    "status": "PENDING"
+  },
+  "bRollReuseAudit": {
+    "status": "PENDING",
+    "baseSnapshotSha256": null,
+    "sourceUsageReviewEvidenceRef": null,
+    "actualNativeUsageLedgerEvidenceRef": null,
+    "perPlacementEligibilityEvidenceRef": null,
+    "cooldownAndExhaustionReadbackEvidenceRef": null,
+    "unresolvedPlacementIds": null,
+    "unchangedBaselineViolations": null,
+    "policy": {
+      "identity": "actual sources[].sha256; aliases and known source lineage do not reset usage",
+      "reuse": "any second placement of the same verified original identity, including disjoint windows",
+      "cooldownTicks": 180000000,
+      "cooldownClock": "new target START minus maximum prior target END for every overlapping same-identity excerpt",
+      "exactCooldownAllowed": true,
+      "afterCooldown": "Conditional mode only: reviewed eligible unused footage exhaustion after explicit current-base user override",
+      "unusedWindowMinimumTicks": 3000000,
+      "unusedWindowCalculation": "subtract union of prior-used source intervals by identity from every reviewed eligible window",
+      "preference": [
+        "wholly fresh suitable source identity",
+        "hold missing material; never silently reuse"
+      ],
+      "futureReservationsMayHideUnusedFootage": false,
+      "booleanExhaustedIsProof": false,
+      "unknownEligibilityOrCompleteness": "HELD affected placement; no whole-timeline PASS",
+      "invalidateAfterRecut": true,
+      "nativeProof": "PENDING for each new revision",
+      "identityLimit": "SHA256 groups byte-identical aliases, not visual/content similarity or differently encoded derivatives",
+      "knownDerivative": "use verified original source identity and evidenced original-window clock with crop as render transform; unsupported mapping means HELD, never fresh footage merely by new hash",
+      "conditionalReuse": "Only snapshot-bound explicit user override enables legacy interval/cooldown/exhaustion mode",
+      "cooldownAndExhaustionAppliesWhen": "REVIEWED_CONDITIONAL_REUSE with exact explicit current-base user authority"
+    },
+    "proofLimit": "helper arithmetic and supplied inventory are not semantic, completeness or native acceptance",
+    "reconciliationEvidenceRef": null,
+    "knownSourceLineageEvidenceRef": null,
+    "defaultMode": "NO_SOURCE_REPEAT",
+    "mandatoryPreNativeAudit": {
+      "manifestField": "bRollAudit",
+      "schema": "capcut-native-broll-audit/v1",
+      "scope": "all actual non-main native video objects and actual frozen-base inventory",
+      "recomputePlan": true,
+      "status": "PENDING"
+    }
+  },
+  "savedStateReadback": {
+    "status": "PENDING",
+    "beforeRevisionHash": null,
+    "afterSaveRevisionHash": null,
+    "activeTimelineIdEvidenceRef": null,
+    "activeObjectIdComparisonEvidenceRef": null,
+    "unreferencedOrDuplicateCleanupEvidenceRef": null,
+    "unresolvedActiveChanges": null,
+    "blindRestorePermitted": false
+  },
+  "longEnumerationIntroduction": {
+    "status": "PENDING",
+    "rawThreshold": 4,
+    "countBasis": "complete-raw-whitespace-lead-in",
+    "longLeadInOnlyCeilingException": true,
+    "retainWholeOriginalCue": true,
+    "numberAndCapitalOnlyAtNextMainContentOwnOnset": true,
+    "readableOneNativeLineRequired": true,
+    "evidence": null
+  }
+}

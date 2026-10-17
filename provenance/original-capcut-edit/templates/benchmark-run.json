@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "capcut-benchmark/v1",
+  "route": null,
+  "mode": null,
+  "inputHashes": [],
+  "versions": {},
+  "encodingMode": null,
+  "stages": [],
+  "wallSeconds": null,
+  "activeSeconds": null,
+  "waitingSeconds": null,
+  "nativeCheckpoint": "PENDING",
+  "evidence": [],
+  "failures": [],
+  "sharedPreprocessing": [],
+  "bRollIncluded": false,
+  "speedWinner": "UNKNOWN"
+}

@@ -1,0 +1,541 @@
+{
+  "schemaVersion": "capcut-cut-plan/v2",
+  "exampleShapeOnly": true,
+  "name": null,
+  "canvas": {
+    "width": null,
+    "height": null,
+    "fps": null
+  },
+  "sources": [
+    {
+      "id": "source-1",
+      "path": null,
+      "sha256": null,
+      "duration": null,
+      "recordingOrder": null
+    }
+  ],
+  "units": [
+    {
+      "id": "unit-1",
+      "scriptText": null,
+      "spokenText": null,
+      "reviewed": false,
+      "evidenceRef": null
+    }
+  ],
+  "takes": [
+    {
+      "id": "take-1",
+      "unitId": "unit-1",
+      "sourceId": "source-1",
+      "in": null,
+      "out": null,
+      "role": null,
+      "complete": null,
+      "usable": null,
+      "reviewed": false,
+      "evidenceRef": null,
+      "reason": null,
+      "timingBasis": null,
+      "words": [
+        {
+          "id": "w1",
+          "start": null,
+          "end": null,
+          "text": null,
+          "role": null,
+          "reviewed": false,
+          "evidenceRef": null
+        },
+        {
+          "id": "w2",
+          "start": null,
+          "end": null,
+          "text": null,
+          "role": null,
+          "reviewed": false,
+          "evidenceRef": null
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "wordIds": [
+            "w1",
+            "w2"
+          ],
+          "start": null,
+          "end": null,
+          "text": null,
+          "role": null,
+          "reviewed": false,
+          "evidenceRef": null,
+          "sentenceId": "sentence-1"
+        }
+      ],
+      "reviewedSentences": [
+        {
+          "id": "sentence-1",
+          "wordIds": [
+            "w1",
+            "w2"
+          ],
+          "text": null,
+          "boundaryBasis": "reviewed-logical-sentence",
+          "reviewed": false,
+          "evidenceRef": null
+        }
+      ],
+      "protectedSpanReview": {
+        "reviewed": false,
+        "basis": "whole-transcript-semantic-review",
+        "wordIds": [
+          "w1",
+          "w2"
+        ],
+        "evidenceRef": null,
+        "recognitionEvidenceRef": null,
+        "retainedUserLockEvidenceRefs": [],
+        "boundaryContextReviewEvidenceRef": null,
+        "allOldAndNewLocksRecheckedAfterRepair": false
+      },
+      "reviewedProtectedSpans": [
+        {
+          "id": "protected-1",
+          "sentenceId": "sentence-1",
+          "wordIds": [
+            "w1",
+            "w2"
+          ],
+          "text": null,
+          "kind": "noun-phrase",
+          "reviewed": false,
+          "evidenceRef": null,
+          "reviewerFamily": null
+        }
+      ]
+    }
+  ],
+  "verifiedNames": [],
+  "numericConversions": [],
+  "captionPolicyOverride": null,
+  "bRollPlan": {
+    "schemaVersion": "capcut-broll-plan/v1",
+    "tickRate": 1000000,
+    "baseSnapshot": {
+      "path": null,
+      "sha256": null,
+      "durationTicks": null
+    },
+    "contentCaptionCheckpoint": "PENDING",
+    "captionCues": [
+      {
+        "id": "caption-1",
+        "startTick": null,
+        "endTick": null
+      }
+    ],
+    "existingArollCuts": [],
+    "cadenceReview": {
+      "reviewed": false,
+      "evidenceRef": null,
+      "reason": null
+    },
+    "sources": [
+      {
+        "id": "broll-source-1",
+        "path": null,
+        "sha256": null,
+        "permitted": false,
+        "rightsEvidenceRef": null,
+        "actualDurationTicks": null,
+        "actualDurationEvidenceRef": null,
+        "sourceOrigin": "UNKNOWN",
+        "voiceClassification": "UNKNOWN",
+        "classificationReview": {
+          "reviewed": false,
+          "evidenceRef": null,
+          "evidenceBasis": null,
+          "reviewScope": "known-origin-and-applicable-camera-voice"
+        },
+        "derivedFromSourceId": null
+      }
+    ],
+    "placements": [
+      {
+        "id": "broll-1",
+        "sourceId": "broll-source-1",
+        "sourceInTick": null,
+        "startCaptionId": "caption-1",
+        "lastCaptionId": "caption-1",
+        "startTick": null,
+        "endTick": null,
+        "meaningReview": {
+          "reviewed": false,
+          "evidenceRef": null,
+          "relevance": null,
+          "addedInformation": null,
+          "overTenSecondsReason": null,
+          "startSelectionReason": null
+        },
+        "paddedToTenSeconds": false,
+        "muteSourceAudio": true,
+        "preserveMainVideo": true,
+        "eligibleSourceReview": {
+          "reviewed": false,
+          "evidenceRef": null,
+          "evidenceBasis": null,
+          "scope": "ALL_SUPPLIED_SOURCES",
+          "exhaustive": false,
+          "baseSnapshotSha256": null,
+          "sources": [
+            {
+              "sourceId": "broll-source-1",
+              "status": "UNKNOWN",
+              "evidenceRef": null,
+              "windows": [],
+              "reason": null
+            }
+          ]
+        }
+      }
+    ],
+    "baseCheckpointEvidenceRef": null,
+    "baseCheckpointEvidenceBasis": null,
+    "coverageMode": "SPARSE",
+    "sourcePresentationRole": null,
+    "coverageReview": {
+      "reviewed": false,
+      "evidenceRef": null,
+      "evidenceBasis": null,
+      "baseSnapshotSha256": null,
+      "durationTicks": null,
+      "firstCaptionId": null,
+      "lastCaptionId": null
+    },
+    "fullTimelineOuterPictureExceptions": {
+      "firstStartAtZeroBeforeCaption": true,
+      "lastEndAtTimelineAfterCaption": true,
+      "requiresMode": "FULL_TIMELINE",
+      "captionClockMayChange": false
+    },
+    "fullTimelineUnion": "exact-contiguous-0-to-current-duration",
+    "interiorTransitions": "unchanged-current-caption-boundaries",
+    "minimumExcerptSeconds": 3,
+    "afterRecut": "reanchor-or-merge-repartition-on-current-captions-source-and-meaning-review-required",
+    "sourceUsageReview": {
+      "reviewed": false,
+      "evidenceRef": null,
+      "evidenceBasis": null,
+      "scope": "WHOLE_CURRENT_TIMELINE",
+      "baseSnapshotSha256": null,
+      "existingPlacements": [],
+      "reconciliations": []
+    },
+    "sourceReuseMode": "NO_SOURCE_REPEAT",
+    "sourceReuseOverride": null
+  },
+  "enumerationDisplayAuthorization": null,
+  "reviewedEnumerations": [],
+  "enumerationExampleShapeOnly": {
+    "id": "list-1",
+    "reviewed": false,
+    "basis": "reviewed-spoken-enumeration",
+    "complete": false,
+    "evidenceRef": null,
+    "items": [
+      {
+        "id": "item-1",
+        "ordinal": 1,
+        "takeId": "take-1",
+        "sentenceId": "sentence-1",
+        "leadInWordIds": [],
+        "markerWordIds": [],
+        "leadInText": null,
+        "firstContentWordId": null,
+        "markerMeaning": "ordinal",
+        "leadInOnly": true,
+        "reviewed": false,
+        "evidenceRef": null
+      }
+    ]
+  },
+  "pacingPlan": {
+    "schemaVersion": "capcut-pacing-plan/v1",
+    "workScope": "CONTENT_EDIT",
+    "outputMode": "EDIT_TIMELINE",
+    "authorization": {
+      "authority": "explicit-user-request",
+      "evidenceRef": null
+    },
+    "nativeClock": {
+      "tickRate": 1000000,
+      "fps": null,
+      "reviewed": false,
+      "evidenceRef": null,
+      "clockBasis": "ACTUAL_TIMELINE",
+      "fpsNumerator": null,
+      "fpsDenominator": null
+    },
+    "sources": [
+      {
+        "id": "source-1",
+        "path": null,
+        "sha256": null,
+        "actualDurationTicks": null,
+        "durationEvidenceRef": null
+      }
+    ],
+    "clips": [
+      {
+        "id": "clip-1",
+        "sourceId": "source-1",
+        "sourceInTick": null,
+        "sourceOutTick": null,
+        "speed": 1,
+        "volume": null,
+        "startFrame": null,
+        "endFrame": null
+      }
+    ],
+    "words": [
+      {
+        "id": "w1",
+        "text": null,
+        "role": null,
+        "reviewed": false,
+        "evidenceRef": null,
+        "sourcePieces": [
+          {
+            "clipId": "clip-1",
+            "sourceStartTick": null,
+            "sourceEndTick": null
+          }
+        ]
+      }
+    ],
+    "reviewedSentences": [],
+    "captionCues": [],
+    "protectedSpanReview": {
+      "reviewed": false,
+      "basis": "whole-transcript-semantic-review",
+      "wordIds": [],
+      "evidenceRef": null
+    },
+    "reviewedProtectedSpans": [],
+    "knownSpeechOrPrompterIntervals": [],
+    "reviewedPauses": [],
+    "reviewedPauseExampleShapeOnly": {
+      "kind": "sentence-boundary-or-intra-sentence-breath",
+      "previousWordId": null,
+      "nextWordId": null,
+      "oldStartTick": null,
+      "oldEndTick": null,
+      "reviewBasis": "audio-speech-boundary-review",
+      "noSpeechOrPrompter": null,
+      "reviewed": false,
+      "evidenceRef": null,
+      "joinEvidenceRef": null,
+      "previousSourceQuietTail": {
+        "sourceId": null,
+        "startTick": null,
+        "availableEndTick": null,
+        "reviewed": false,
+        "evidenceRef": null
+      },
+      "oldStartFrame": null,
+      "oldEndFrame": null,
+      "safeRemoval": {
+        "startFrame": null,
+        "endFrame": null,
+        "startTick": null,
+        "endTick": null,
+        "leftPhoneticHandleTicks": null,
+        "rightPhoneticHandleTicks": null,
+        "reviewed": false,
+        "evidenceRef": null,
+        "reviewBasis": "audio-speech-boundary-review"
+      }
+    },
+    "captionExampleShapeOnly": {
+      "id": "caption-1",
+      "sentenceId": "sentence-1",
+      "wordIds": [],
+      "text": null,
+      "reviewedDisplayByWord": [],
+      "reviewed": false,
+      "evidenceRef": null
+    },
+    "sentenceTailFrames": null,
+    "intraSentenceBreathCapFrames": null,
+    "reviewedCaptionOuterBounds": {
+      "firstOnsetFrame": null,
+      "lastEndFrame": null,
+      "reviewed": false,
+      "evidenceRef": null
+    },
+    "sentenceShortfallPolicy": null,
+    "sentenceShortfallPolicyExampleShapeOnly": {
+      "action": "KEEP_REVIEWED_REAL_QUIET_AND_REPORT",
+      "authority": "explicit-user-request",
+      "evidenceRef": null
+    },
+    "pacingScope": "ALL_PAUSES",
+    "pacingScopeOverride": null,
+    "legacyOptions": {
+      "INTER_SENTENCE_ONLY": {
+        "sentenceTailFrames": 15,
+        "preserveIntraSentencePauses": true
+      },
+      "SENTENCE_AND_INTRA": {
+        "sentenceTailFrames": 15,
+        "intraSentenceBreathCapFrames": 5,
+        "rawGapCeiling": "ceil(5*1000000/timelineFPS)-phase-aware",
+        "shorterOrEqualRawGapUnchanged": true
+      },
+      "overrideRequires": "explicit-scoped-user-request-evidence",
+      "unknownQuietNotShortfall": true,
+      "shortfallPolicy": "explicit-user-reviewed-real-quiet-and-per-sentence-report-only",
+      "noPaddingFreeze": true
+    },
+    "pauseCriterion": {
+      "minimumQuietDurationTicks": 200000,
+      "comparison": "STRICTLY_GREATER",
+      "auditScopes": [
+        "HEAD",
+        "INTERNAL",
+        "TAIL"
+      ]
+    },
+    "reviewedBoundaryPauseExampleShapeOnly": {
+      "kind": "head-quiet-or-tail-quiet",
+      "nearestWordId": null,
+      "oldStartFrame": null,
+      "oldEndFrame": null,
+      "oldStartTick": null,
+      "oldEndTick": null,
+      "reviewed": false,
+      "evidenceRef": null,
+      "reviewBasis": "audio-speech-boundary-review",
+      "noSpeechOrPrompter": null,
+      "joinEvidenceRef": null,
+      "safeRemoval": {
+        "startFrame": null,
+        "endFrame": null,
+        "startTick": null,
+        "endTick": null,
+        "leftPhoneticHandleTicks": null,
+        "rightPhoneticHandleTicks": null,
+        "reviewed": false,
+        "evidenceRef": null,
+        "reviewBasis": "audio-speech-boundary-review"
+      },
+      "outerHandleRule": "zero-only-on-exposed-outer-edge;speech-facing-positive",
+      "clipId": null,
+      "sourceId": null,
+      "sourceStartTick": null,
+      "sourceEndTick": null,
+      "exampleShapeOnly": true
+    },
+    "reviewedBoundaryPauses": []
+  },
+  "recipient": {
+    "kind": null,
+    "id": null,
+    "label": null,
+    "reviewed": false,
+    "evidenceRef": null,
+    "intakeQuestion": "Clip này làm cho ai?",
+    "identityNotInferredFrom": "bare-Nga-country-filename-topic-speaker"
+  },
+  "contentDomain": {
+    "id": null,
+    "reviewed": false,
+    "evidenceRef": null,
+    "unknownMrsNgaDomainRequires": "existing-Gate0-consequential-missing-fact-question"
+  },
+  "style": {
+    "selectedId": null,
+    "taskInstance": null,
+    "referenceCalibration": "PENDING",
+    "selectionRule": "nga-only-for-confirmed-PERSON-mrs-nga-and-real-estate-unless-explicit-other-style"
+  },
+  "savedStyleDisplayContract": {
+    "scope": "confirmed-Mrs-Nga-real-estate-only",
+    "wholeTerms": {
+      "bất động sản": "🏡",
+      "sale": "👨‍💼👩‍💼",
+      "deal": "🤝📝"
+    },
+    "caseInsensitive": true,
+    "unicodeNormalization": "NFC-display-only-raw-preserved",
+    "wholeUnicodeTokenBoundaries": true,
+    "replaceAllOccurrences": true,
+    "atomicExactEmojiPairs": true,
+    "reversibleRawIdEvidenceRequired": true,
+    "sourceAndCueTimingUnchanged": true,
+    "preservePriorProtectedSpans": true,
+    "wordCeilingAfterDisplayOnly": true,
+    "nativeGlyphAndUtf16RangeProof": "PENDING"
+  },
+  "script": {
+    "mode": "REFERENCE_ONLY",
+    "evidenceRef": "capcut-default-script-reference-only",
+    "referenceIdentity": null,
+    "actualSpokenUnitReview": {
+      "reviewed": false,
+      "evidenceRef": null
+    },
+    "allowedModes": [
+      "EXACT_CONTENT",
+      "REFERENCE_ONLY"
+    ],
+    "defaultWhenSuppliedRoleUnknown": "REFERENCE_ONLY",
+    "rawSpokenWordsAlwaysExact": true,
+    "referenceOnlyNeverClaimsExactScriptMatch": true,
+    "exactContentRequires": "explicit-user-verbatim-script-requirement",
+    "askRoleByDefault": false
+  },
+  "finalEditedCaptionAnchors": {
+    "stage": "AFTER_FINAL_CONTENT_AND_PAUSE_CUTS",
+    "audioIdentity": null,
+    "sourceToEditedMapEvidenceRef": null,
+    "captionOnsetStatus": "FRAME_ESTIMATES_PENDING_FINAL_AUDIO_REVIEW",
+    "finalCaptionAnchorAcceptance": "PENDING",
+    "frozenReviewedOnsetTupleTicks": [],
+    "firstReviewedOnsetTicks": null,
+    "lastReviewedEndTicks": null,
+    "endHoldPolicy": "END[i]=frozenSTART[i+1]",
+    "captionStartsUnchangedByEndFill": true,
+    "readbackEvidenceRef": null,
+    "invalidateAfterContentRecut": true,
+    "actualAudioNativeProof": "PENDING"
+  },
+  "voiceReview": {
+    "linearGain": 2.0,
+    "gainDb": 6.020599913279624,
+    "scope": "user-facing-review-copy-only",
+    "sourceAndMainProjectGainUnchanged": true,
+    "sampleClockAndDurationUnchanged": true,
+    "clippingPreflightRequired": true,
+    "clippingConflict": "hold-export-no-silent-clamp-or-attenuation",
+    "hearingProofFromGainCheck": false
+  },
+  "projectIdentity": {
+    "name": null,
+    "evidenceRef": null,
+    "nativePath": null,
+    "nativeId": null,
+    "namingParameters": {},
+    "parameterEvidenceRefs": {},
+    "lookupStatus": "PENDING",
+    "lookupEvidenceRef": null,
+    "creationPolicy": "AGENT_CREATE_NEW_WHEN_ELIGIBLE",
+    "creationStatus": "PENDING_COMPATIBLE_ROUTE",
+    "collisionPolicy": "HOLD_NO_OVERWRITE",
+    "editorClosedEvidenceRef": null,
+    "nativeAcceptance": "PENDING"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "capcut-style/v1",
+  "id": "nga",
+  "title": "Mrs Nga — bất động sản",
+  "referenceCalibration": "PENDING_FOR_TARGET_RUNTIME",
+  "reference": {
+    "id": "mrs-nga-real-estate-portrait-caption-baseline-v1",
+    "status": "USER_ACCEPTED_PORTABLE_BASELINE",
+    "evidenceBasis": "USER_REPORTED",
+    "scope": "privacy-safe visual parameters only",
+    "priorProjectNativeProofTransferable": false,
+    "currentRuntimeValidationRequired": true
+  },
+  "appliesTo": {
+    "captionMode": "reviewed-short-phrase",
+    "visualLines": 1,
+    "recipientKind": "PERSON",
+    "recipientId": "mrs-nga",
+    "contentDomain": "real-estate",
+    "factsRequire": "reviewed-known-answer-evidence",
+    "explicitDifferentStylePreserved": true
+  },
+  "font": {
+    "family": "Metropolis",
+    "resourceHash": "443a016122bde96183e7c17e3e23d1a350dbb28406610c9594080b7be7bab515",
+    "size": 9.6,
+    "sizeUnit": "CapCut-native-font-size-units-not-points",
+    "readableFloor": 9.6,
+    "nativeName": "Arial",
+    "nativeTitle": "Arial Bold",
+    "nativeBoldWidth": 0.0,
+    "resourceBasename": "en.ttf",
+    "resourceRelativePath": "Resources/Font/SystemFont/en.ttf",
+    "resourceResolver": "current installed CapCut application resource root; verify SHA256 before use",
+    "resourceHashAlgorithm": "SHA256",
+    "copyOrInstallFont": false,
+    "titleIsSyntheticWeightAuthority": false,
+    "internalStyle": "Medium",
+    "nativeLabelsAreResourceFamilyProof": false
+  },
+  "appearance": {
+    "color": "#FFFFFF",
+    "border": {
+      "enabled": false
+    },
+    "background": {
+      "enabled": false
+    },
+    "position": {
+      "x": 0.0,
+      "y": -0.56,
+      "units": "CapCut-normalized-transform"
+    },
+    "alignment": "center",
+    "nativeAlignment": 1,
+    "scale": {
+      "x": 1.0,
+      "y": 1.0
+    },
+    "rotation": 0.0,
+    "opacity": 1.0,
+    "shadow": {
+      "enabled": false
+    }
+  },
+  "layout": {
+    "canvas": {
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16"
+    },
+    "availableWidth": 0.82,
+    "widthUnit": "CapCut-native-line_max_width-normalized",
+    "safeMargins": null,
+    "preferredTimelineFps": 30,
+    "nativeForceApplyLineMaxWidth": false,
+    "nativeOnelineCutoff": false
+  },
+  "captionPolicy": {
+    "wordByWord": false,
+    "twoRows": false,
+    "hardCharacterFragmentLimit": null,
+    "preserveExactWords": true,
+    "maxWordsPerCue": 6,
+    "aimWordsPerCue": [
+      5,
+      6
+    ],
+    "wordCountBasis": "whitespace-separated-display-tokens",
+    "capitalization": "verified-names-only",
+    "gapless": true,
+    "preserveFirstOnsetAndLastReviewedEnd": true,
+    "overrideRequires": "explicit-user-request",
+    "requireSingleReviewedSentence": true,
+    "sentenceBoundaryBasis": "reviewed-logical-sentence-before-display-formatting",
+    "shortRemainderAllowed": true,
+    "removeFullStops": true,
+    "retainInternalCommas": true,
+    "removeTrailingCommas": true,
+    "preserveReviewedColonAndQuestionMark": true,
+    "inventPunctuation": false,
+    "requireReviewedProtectedSpans": true,
+    "protectedSpanBasis": "whole-transcript-semantic-review-before-display-conversion",
+    "protectedSpanKinds": [
+      "noun-phrase",
+      "adjective-phrase",
+      "verb-phrase",
+      "proper-name",
+      "term",
+      "number-unit"
+    ],
+    "splitInsideProtectedSpan": false,
+    "overLimitProtectedSpan": "evidenced-conflict-no-silent-shortening",
+    "compatibleOverlap": "union-must-fit-one-cue",
+    "longerComposition": "reviewed-constituent-boundaries-not-automatically-atomic",
+    "meaningfulShortCueAllowed": true,
+    "countPackingNeverRequired": true,
+    "enumerationDisplay": {
+      "requires": "explicit-user-request-and-complete-reviewed-spoken-list",
+      "periodException": "only-after-reviewed-ordinal-prefix",
+      "capitalization": "first-character-of-first-content-word-only-then-ordinary-policy",
+      "rawCoverage": "every-consumed-lead-in-ID-retained-on-reversible-prefix-transform",
+      "audioContentUnchanged": true,
+      "prefixWithFirstContentWord": true
+    },
+    "contextualAuxiliaryModalUnits": "reviewed-whole-unit-in-context-not-global-bare-word-ban",
+    "retainPriorAcceptedProtectedSpans": "hard-constraint-each-regroup-new-explicit-user-supersession-only-with-history",
+    "repairReview": "recheck-all-retained-and-new-spans-not-only-latest-example",
+    "recognitionBeforeSegmentation": {
+      "basis": "reviewer-contextual-judgment-on-raw-logical-sentence-not-automatic-parser",
+      "families": [
+        "noun-name-term-number-unit",
+        "verb-modal-negation-aspect-stem-object-beneficiary",
+        "adjective-degree-comparison",
+        "comparative-relation",
+        "preposition-recipient-idiom"
+      ],
+      "priorUserLocksFirst": true,
+      "hardAtomicVsSoftComposition": "record-core-ranges-and-reviewed-constituent-cuts",
+      "bothSidesEachBoundaryReview": true,
+      "noBareTrailingWordBan": true,
+      "recheckAllOldAndNewAfterRepair": true,
+      "automaticGrammarOrHeardAudioProof": false
+    },
+    "savedStyleDisplay": {
+      "scope": "confirmed-Mrs-Nga-real-estate-only",
+      "wholeTerms": {
+        "bất động sản": "🏡",
+        "sale": "👨‍💼👩‍💼",
+        "deal": "🤝📝"
+      },
+      "caseInsensitive": true,
+      "unicodeNormalization": "NFC-display-only-raw-preserved",
+      "wholeUnicodeTokenBoundaries": true,
+      "replaceAllOccurrences": true,
+      "atomicExactEmojiPairs": true,
+      "reversibleRawIdEvidenceRequired": true,
+      "sourceAndCueTimingUnchanged": true,
+      "preservePriorProtectedSpans": true,
+      "wordCeilingAfterDisplayOnly": true,
+      "nativeGlyphAndUtf16RangeProof": "PENDING"
+    },
+    "preserveExactWordsBasis": "raw-source-script-word-IDs-exact; only-reviewed-ordinal-and-applicable-three-emoji-display-transforms",
+    "onsetAnchoring": {
+      "basis": "first-audible-raw-word-on-final-edited-audio-clock",
+      "asrLeadingQuietIsTrueOnset": false,
+      "missingOrHeldOnset": "PENDING-no-invented-time",
+      "constantTranslationNotRescale": true,
+      "freezeOnsetsBeforeEndHold": true,
+      "endFillMayChangeStarts": false,
+      "endHold": "END[i]=frozenSTART[i+1]",
+      "onsetRepair": "separate-evidence-backed-correction-and-fresh-native-audio-proof",
+      "derivedClockReadbackRequired": true,
+      "personalHearingFromModelOutput": false,
+      "pacingProducerOnsetStatus": "FRAME_ESTIMATES_PENDING_FINAL_AUDIO_REVIEW",
+      "pacingProducerFinalCaptionAnchorAcceptance": "PENDING",
+      "captionStartsUnchangedByEndFill": true,
+      "endFillFlagScope": "generated-start-tuple-only-not-audible-onset-or-old-clock-proof",
+      "reviewedFinalCaptionOnsetsAtPacing": "REJECT-preserve-in-separate-final-edited-audio-anchor-stage",
+      "postCndStage": "AFTER_FINAL_CONTENT_AND_PAUSE_CUTS"
+    }
+  },
+  "proof": {
+    "fontAvailability": "PENDING",
+    "widthPrecheck": "PENDING",
+    "nativeSingleLine": "PENDING",
+    "nativeStyle": "PENDING",
+    "nativeEmojiGlyphAndZwj": "PENDING",
+    "nativeUtf16StyleRanges": "PENDING"
+  },
+  "storageRule": "Portable accepted visual baseline only. Resolve the current installed resource without copying/installing fonts; create a task-owned instance and retain current per-run proof separately. No private project/media paths or IDs are required.",
+  "pacingPolicy": {
+    "appliesOnlyTo": "CONTENT_EDIT",
+    "exclude": [
+      "SUB_ONLY",
+      "SRT_ONLY",
+      "edited-audio-transcription-preservation"
+    ],
+    "lastSentenceForcedTail": false,
+    "reviewedQuietAudioSourceJoinsRequired": true,
+    "noFreezePadStretchSpeedFPSChange": true,
+    "units": "FRAMES",
+    "clockBasis": "ACTUAL_TIMELINE_FPS",
+    "deriveSecondsFromTimelineFPSOnly": true,
+    "compareFrameIndicesNotFixedMicroseconds": true,
+    "rawWordAudioTicksNotQuantized": true,
+    "intraGapMeasure": "full-reviewed-speech-end-to-next-onset-microticks",
+    "wholeQuietFrameCountNotGapProof": true,
+    "unknownQuietNotShortfall": true,
+    "noPaddingFreeze": true,
+    "preserveRawQuietMicroticks": true,
+    "nativeRepresentationConflict": "hold-affected-join-partial-preparation-only",
+    "pacingScope": "ALL_PAUSES",
+    "majorIdeaBoundaryBasis": "reviewed-complete-logical-unit-in-bound-word-map-not-ASR-segment-or-gap",
+    "differentScopeRequires": "explicit-user-request-with-matching-pacingScopeOverride-evidence",
+    "allPauseMeaning": "all-reviewed-real-quiet-strictly-over200ms-at-head-internal-tail-not-retain200ms-or-zero-gap",
+    "sentenceTailFrames": null,
+    "intraSentenceBreathCapFrames": null,
+    "rawGapCeiling": null,
+    "phoneticHandles": "positive-evidenced-speech-facing-margin;zero-only-at-exposed-outer-edge",
+    "unknownOrRiskyQuiet": "HELD-specific-boundary-source-diagnosis-no-all-cut-pass",
+    "legacyOptions": {
+      "INTER_SENTENCE_ONLY": {
+        "sentenceTailFrames": 15,
+        "preserveIntraSentencePauses": true
+      },
+      "SENTENCE_AND_INTRA": {
+        "sentenceTailFrames": 15,
+        "intraSentenceBreathCapFrames": 5,
+        "rawGapCeiling": "ceil(5*1000000/timelineFPS)-phase-aware",
+        "shorterOrEqualRawGapUnchanged": true
+      },
+      "overrideRequires": "explicit-scoped-user-request-evidence",
+      "unknownQuietNotShortfall": true,
+      "shortfallPolicy": "explicit-user-reviewed-real-quiet-and-per-sentence-report-only",
+      "noPaddingFreeze": true
+    },
+    "pauseCriterion": {
+      "minimumQuietDurationTicks": 200000,
+      "comparison": "STRICTLY_GREATER",
+      "auditScopes": [
+        "HEAD",
+        "INTERNAL",
+        "TAIL"
+      ]
+    },
+    "thresholdAtOrBelow": "unchanged-unless-separately-authorized"
+  },
+  "projectNaming": {
+    "mode": "STYLE_EPISODE",
+    "styleId": "nga",
+    "defaultPrefix": "MrsNga",
+    "separator": "_",
+    "contextTemplate": "Dot{shootBatch}",
+    "contextOptional": true,
+    "episodePrefix": "EP ",
+    "episodeAccepts": "POSITIVE_NUMBER_OR_TITLE",
+    "stateInProjectName": false,
+    "stateStorage": "task-review-metadata-not-project-display-name",
+    "parameters": [
+      {
+        "id": "shootBatch",
+        "label": "đợt quay",
+        "type": "POSITIVE_INTEGER",
+        "required": false
+      },
+      {
+        "id": "episode",
+        "label": "EP",
+        "type": "NUMBER_OR_TITLE",
+        "required": true
+      }
+    ],
+    "explicitNewNamePriorityWhenCompliant": true,
+    "existingNamePreservedLiterally": true,
+    "askOnlyUnknownParameters": true,
+    "inferNumbersFromSourceFolder": false,
+    "creationPolicy": "AGENT_CREATE_NEW_WHEN_ELIGIBLE",
+    "nativeExistenceNotImplied": true
+  }
+}
